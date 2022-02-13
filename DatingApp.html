@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>DatingApp</title>
+    <link href="DatingApp.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <h1>Personel Details:</h1>
+    <hr> 
+    <div>
+    <form>
+      <label for="Fname">First Name:</label>
+      <input type="text" id="Fname" name="Fname" placeholder="First Name"><br><br>
+
+      <label for="Lname">Last Name: </label>
+      <input type="text" id="Lname" name="Lname" placeholder="Last Name"><br><br>
+
+      <label for="email">Email&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:</label>
+      <input type="email" id="email" name="email" placeholder="Email"><br><br>
+
+      <label for="Phone">Phone No&nbsp;: </label>
+      <input type="number" id="Phone" name="Phone" placeholder="Phone Number"><br><br>
+
+      <label>Gender&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:</label>
+            <input type="radio" name="Gender" value="Male" id="M1">
+            <label for="M1">Male</label>
+
+            <input type="radio" name="Gender" value="Female" id="M2">
+            <label for="M2">Female</label>
+
+            <input type="radio" name="Gender" value="Others" id="M3">
+            <label for="M3">Others</label><br><br>
+            <label for="Date">Proposed Date: </label>
+            <input type="datetime-local" id="Date" name="Date"><br><br>
+      
+          </form>
+          <hr>
+          <form>
+            <input type="checkbox" name="A1"  id="A1">
+            <label for="A1">I have tattoos and/or piercings.</label><br><br>
+      
+            <input type="checkbox" name="A2"  id="A2">
+            <label for="A2">I am more than 2 years older than my daughter.
+      </label><br><br>
+      
+            <input type="checkbox" name="A3"  id="A3">
+            <label for="A3">I own a panel van or Ferrari.</label><br><br>
+      
+            <input type="checkbox" name="A4"  id="A4">
+            <label for="A4">I work full-time.</label><br><br>
+      
+            <input type="checkbox" name="A5"  id="A5">
+            <label for="A5">My parents are rich.</label><br><br>
+      
+            <input type="checkbox" name="A6"  id="A6">
+            <label for="A6">My parents are rich.</label><br><br>
+      
+              <label>Date Location:</label>
+              <input type="radio" name="Public" value="Public"  id="P1">
+              <label for="P1">Public Location</label>
+      
+              <input type="radio" name="Public" value="Private"  id="P2">
+              <label for="P2">Private Location</label><br><br>
+              
+              <input type="checkbox" name="A7" id="A7">
+              <label for="A7">Education level completed</label> 
+          </form>
+          <hr/>
+      
+          <label for="textarea">Why do you want to date my daughter (Tell me in 50 words)?</label><br><br>
+          <input type="textarea" id="text1" name="text1"><br><br>
+          
+          <label for="textarea">Please provide 1 contact point for your reference?</label><br><br>
+          <input type="textarea" id="text1" name="text1"><br><br>
+          
+          
+          <label for="file">Upload the bank statement:</label><br><br>
+          <input type="file" accept="application/pdf" class="file"><br><br>
+        
+          <hr/>
+          <input type="Submit" value="Submit" class="Submit"> <br><br>
+    </div>   
+
+    <script src="script.js"></script>
+  </body>
+</html>
